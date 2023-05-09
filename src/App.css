@@ -1,0 +1,26 @@
+body{
+    background:#141414;
+}
+.movie-app > .row{
+    overflow-x:  auto;
+    flex-wrap:nowrap;
+}
+
+.image-container{
+    transition:transform 0.2s;
+    position:relative;
+    -webkit-transition:transform 0.2s;
+    -moz-transition:transform 0.2s;
+    -ms-transition:transform 0.2s;
+    -o-transition:transform 0.2s;
+}
+
+
+.image-container:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
